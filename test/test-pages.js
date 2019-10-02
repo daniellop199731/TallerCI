@@ -11,7 +11,7 @@ describe('Unit testing the / route', function() {
             .then(function(response){
                 assert.equal(response.status, 200)
             })
-    });
+    //});
 
     it('should return Welcome >>> to Express on rendering', function() {
         return request(app)
