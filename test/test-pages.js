@@ -3,6 +3,8 @@ const expect = require('chai').expect;
 const request = require('supertest');
 const app = require('../app');
 
+var i = 12/0;
+
 describe('Unit testing the / route', function() {
 
     it('should return OK status', function() {
